@@ -5,3 +5,11 @@ The units of length are in meters, and the units of time are in frames (all data
 ex: attractors(1, 1, :) is y(t) of the first experimental dataset and  attractors(1, 2, :) is theta(t) of the first experimental dataset
 
 y0: [55x1] array of fitted y0, which is the constant offset needed to have y(t) be in a gravity free frame
+
+
+---------------
+
+run_AGATE_weights.m: MATLAB function to run the AGATE method on data stored in attractors.txt, outputs optimized coefficients for minimal model specified in function
+
+
+
